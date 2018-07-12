@@ -1,0 +1,50 @@
+h1 {
+	text-align: center;
+	font-size: 65px;
+	margin: auto;
+}
+
+form {
+	padding-top: 20px;
+	margin: 0 auto;
+	width:400px;
+	outline: none;
+}
+
+input {
+	text-align: left;
+	font-size: 20px;
+	padding: 10px;
+	border: 1px;
+	outline: none;
+	float: left;
+	width: 78%;
+	margin-top: 5px;
+}
+
+button {
+	width: 15%;
+	height: 100%;
+	border: 0px;
+	background: black;
+	outline: none;
+	color: white;
+	float: right;
+	font-size: 16px;
+}
+
+.centerForm {
+	border: 1px solid black;
+	height: 50px;
+	background: white;
+	float: center;
+	outline: none;
+}
+
+.center {
+	border: 0px;
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%, -50%)
+}
